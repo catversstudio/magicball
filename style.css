@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+canvas {
+    display: block;
+}
+
+/* Hide the actual video feed, we only need its data */
+#videoElement {
+    display: none; 
+}
